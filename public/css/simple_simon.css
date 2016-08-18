@@ -1,0 +1,123 @@
+/* style for the anchor tags as buttons can be found at 
+http://stackoverflow.com/questions/8357058/how-to-make-a-href-link-look-like-a-button */
+body {
+	background-image: url("img/concrete/concrete.png");
+} 
+
+.button {  
+	display: block;
+    width: 100px;
+    height: 15px;
+    background: url("");
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    float:left;
+    font-family: 'Lato', 'Play';
+
+
+}
+
+a.button {
+	display: block;
+    width: 100px;
+    height: 15px;
+    background: #4E9CAF;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    float:left;
+    font-family: 'Lato', 'Play';
+
+}
+	#boxSimon{
+		float: left;
+		height: 540px;
+		width:  540px;
+		color: #d3d3d3;
+		border: 1px solid black;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		padding: 0px;
+		font-family: 'Lato', 'Play';
+		background-color: #00264d;
+		background: -webkit-linear-gradient(#00264d, #293f50);
+		background:    -moz-linear-gradient(#00264d, #293f50);
+		background:         linear-gradient(#00264d, #293f50);
+}
+
+.red {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 360px;
+	font-size: 50px;
+	color: #a7121b;
+	line-height: 100px;
+	text-align: center;
+	text-decoration: none;
+	background: #a7121b;
+	float: left;
+}
+
+.blue {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 360px;
+	font-size: 20px;
+	color: #2d60d3;
+	line-height: 100px;
+	text-align: center;
+	text-decoration: none;
+	background: #2d60d3;
+
+	
+
+
+}
+
+.green {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 360px;
+	font-size: 20px;
+	color: #2e8b57;
+	line-height: 100px;
+	text-align: center;
+	text-decoration: none;
+	background: #2e8b57;
+	float: left;
+	
+}
+
+.yellow {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 360px;
+	font-size: 20px;
+	color: #d3a02d;
+	line-height: 100px;
+	text-align: center;
+	text-decoration: none;
+	background: #d3a02d;
+	float:left;
+
+}
+
