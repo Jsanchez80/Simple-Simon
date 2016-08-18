@@ -1,7 +1,9 @@
 /* style for the anchor tags as buttons can be found at 
 http://stackoverflow.com/questions/8357058/how-to-make-a-href-link-look-like-a-button */
+ 
+
 body {
-	background-image: url("img/concrete/concrete.png");
+	background-image: url("/img/concrete_wall2x.png");
 } 
 
 .button {  
