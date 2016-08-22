@@ -27,6 +27,7 @@ var blink = function (button, blink) {
 		}, blink).animate({
 			opacity: .25
 		}, blink);
+			
 	};
 	console.log("blinky")
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 	
