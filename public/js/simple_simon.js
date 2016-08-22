@@ -8,11 +8,10 @@
 
 
 
-var sequence = Math.floor(Math.random() * 4) + 1
-	var nextSequence = [];
-	// nextSequence.push(sequence);
-console.log(sequence)
-
+    var sequence = Math.floor(Math.random() * 4) + 1
+ 	var nextSequence = [];
+//		nextSequence.push(sequence);
+//     	console.log(sequence)
 	
 	
 
@@ -80,7 +79,7 @@ var buttonSelect = function(nextSequence) {
 		};
 	}, 500);
 };
-	console.log("loop generating")
+	
 // // // // // // // / // // // // // // // // // // // // // // // // // // / // // // // //
 // players selection of button via the click feature
 
@@ -89,7 +88,7 @@ var buttonClicked = function() {
 			var buttonValue = parseInt($(this).attr("value"));
 			var buttonChange = "value" + $(this).attr("id");
 			blink(buttonChange, 100);
-			$(".color").off("click");
+			// $(".color").off("click");
 			buttonCheck(buttonValue);
 			console.log("button clicked worked")
 
@@ -108,7 +107,7 @@ var variousSequence = function (event) {
 
 $("#power").on("click", function(){
 	variousSequence();
-	$('#power').off('click');
+	// $('#power').off('click');
 
 });
 	
@@ -118,7 +117,7 @@ $("#power").on("click", function(){
  
 var count = 0;
 	var buttonCheck = function(buttonClicked){
-		if (buttonClicked === nextSequence[count++]) { //adding the ++ to [count] gave m an additional 2 moves
+		if (buttonClicked === nextSequence[count]) { //adding the ++ to [count] gave m an additional 2 moves
 			count++;
 			console.log("correct")
 			if (count < nextSequence.length) {
@@ -129,10 +128,15 @@ var count = 0;
 				variousSequence();
 			};
 		} else {
-			alert("try again")
+			alert("Game Over! Try Again...")
 			setTimeout(function(){
 				location.reload();
 			}, 500);
+
+			// console.log(nextSequence);	
 		};
+
 	};
-		console.log("bingo!")
+		console.log("bingo!");
+
+
