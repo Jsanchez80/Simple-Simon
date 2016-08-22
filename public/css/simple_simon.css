@@ -6,55 +6,23 @@ body {
 	background-image: url("/img/concrete_wall2x.png");
 } 
 
-.button {  
-	display: block;
-    width: 100px;
-    height: 15px;
-    background: url("");
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    border-radius: 2px;
-    color: white;
-    font-weight: bold;
-    float:left;
-    font-family: 'Lato', 'Play';
-
-
+#boxSimon{
+	float: left;
+	height: 500px;
+	width:  500px;
+	color: #d3d3d3;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 0px;
+	font-family: 'Lato', 'Play';
+	background-color: #00264d;
+	background: -webkit-linear-gradient(#00264d, #293f50);
+	background:    -moz-linear-gradient(#00264d, #293f50);
+	background:         linear-gradient(#00264d, #293f50);
 }
 
-a.button {
-	display: block;
-    width: 100px;
-    height: 15px;
-    background: #4E9CAF;
-    padding: 5px;
-    margin: 2px;
-    text-align: center;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    float:left;
-    font-family: 'Lato', 'Play';
-
-}
-	#boxSimon{
-		float: left;
-		height: 540px;
-		width:  540px;
-		color: #d3d3d3;
-		border: 1px solid black;
-		margin-top: 10px;
-		margin-bottom: 0px;
-		padding: 0px;
-		font-family: 'Lato', 'Play';
-		background-color: #00264d;
-		background: -webkit-linear-gradient(#00264d, #293f50);
-		background:    -moz-linear-gradient(#00264d, #293f50);
-		background:         linear-gradient(#00264d, #293f50);
-}
-
-.red {
+#button1 {
 	display: block;
 	width: 200px;
 	height: 200px;
@@ -70,8 +38,9 @@ a.button {
 	float: left;
 }
 
-.blue {
+#button3 {
 	display: block;
+	position: relative;
 	width: 200px;
 	height: 200px;
 	margin: 10px;
@@ -83,13 +52,12 @@ a.button {
 	text-align: center;
 	text-decoration: none;
 	background: #2d60d3;
-
-	
+	float: left;	
 
 
 }
 
-.green {
+#button2 {
 	display: block;
 	width: 200px;
 	height: 200px;
@@ -102,11 +70,11 @@ a.button {
 	text-align: center;
 	text-decoration: none;
 	background: #2e8b57;
-	float: left;
+	float: right;
 	
 }
 
-.yellow {
+#button4 {
 	display: block;
 	width: 200px;
 	height: 200px;
@@ -119,7 +87,23 @@ a.button {
 	text-align: center;
 	text-decoration: none;
 	background: #d3a02d;
-	float:left;
+	float: right
+
 
 }
+
+#power {
+	background-image: url("/img/brushed.png");
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 360px;
+	font-size: 20px;
+	color: #ff1d8e;
+	line-height: 100px;
+	text-align: center;
+	text-decoration: none;
+	float: right;
 
