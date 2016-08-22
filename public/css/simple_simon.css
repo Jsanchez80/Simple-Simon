@@ -105,5 +105,21 @@ body {
 	line-height: 100px;
 	text-align: center;
 	text-decoration: none;
-	float: right;
+	float: left;
 
+}
+
+#term {
+	background-image: url("/img/brushed.png");
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 360px;
+	font-size: 20px;
+	color: #006d74;
+	line-height: 100px;
+	text-align: center;
+	text-decoration: none;
+	float: right;
