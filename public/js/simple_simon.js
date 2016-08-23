@@ -82,12 +82,12 @@ var buttonSelect = function(nextSequence) {
 // // // // // // // / // // // // // // // // // // // // // // // // // // / // // // // //
 // players selection of button via the click feature
 
- var player = function(player) {
+ var player = function() {
 		$(".color").on("click", function(){
 			var buttonValue = parseInt($(this).attr("value"));
 			var buttonChange = "#" + $(this).attr("id");
 			blink(buttonChange, 100);
-			// $(".color").off("click");
+			$(".color").off("click");
 			compare(buttonValue);
 
 		});
@@ -114,8 +114,8 @@ $("#power").on("click", function(){
 // keeps track of your count and determines what your next move should be
  
 var count = 0;
-	var compare= function(player){
-		if (player === nextSequence[count]) {
+	var compare= function(input){ // OMG! this was the only thing causing the dang problem(instead of placing player, switched it out for the word "Input)
+		if (input === nextSequence[count]) { // see note on line 117!
 			count++;
 			if (count < nextSequence.length) {
 				player();
