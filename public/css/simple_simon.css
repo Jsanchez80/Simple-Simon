@@ -12,11 +12,13 @@ body {
 	width:  500px;
 	color: #d3d3d3;
 	border: 1px solid black;
+	margin: 400px;
 	margin-top: 10px;
 	margin-bottom: 0px;
 	padding: 0px;
 	font-family: 'Lato', 'Play';
 	background-image: url("/img/brushed.png");
+	box-shadow: 10px 5px 5px black;
 }
 
 #button1 {
@@ -25,7 +27,7 @@ body {
 	height: 200px;
 	margin: 10px;
 	padding: 10px;
-	border-radius: 360px;
+	border-radius: 10px;
 	font-size: 50px;
 	color: #a7121b;
 	line-height: 100px;
@@ -42,7 +44,7 @@ body {
 	height: 200px;
 	margin: 10px;
 	padding: 10px;
-	border-radius: 360px;
+	border-radius: 10px;
 	font-size: 20px;
 	color: #2d60d3;
 	line-height: 100px;
@@ -60,8 +62,8 @@ body {
 	height: 200px;
 	margin: 10px;
 	padding: 10px;
-	border-radius: 360px;
-	font-size: 20px;
+	border-radius: 10px;
+	font-size: 10px;
 	color: #2e8b57;
 	line-height: 100px;
 	text-align: center;
@@ -77,7 +79,7 @@ body {
 	height: 200px;
 	margin: 10px;
 	padding: 10px;
-	border-radius: 360px;
+	border-radius: 10px;
 	font-size: 20px;
 	color: #d3a02d;
 	line-height: 100px;
@@ -92,28 +94,29 @@ body {
 #power {
 	background-image: url("/img/brushed.png");
 	display: block;
-	width: 200px;
-	height: 200px;
-	margin: 10px;
+	width: 80px;
+	height: 80px;
 	padding: 10px;
-	border-radius: 360px;
+	border-radius: 10px;
 	font-size: 20px;
 	color: #ff1d8e;
 	line-height: 100px;
 	text-align: center;
 	text-decoration: none;
 	float: left;
+	box-shadow: 10px 5px 5px black;
+
 
 }
 
 #term {
 	background-image: url("/img/brushed.png");
 	display: block;
-	width: 200px;
-	height: 200px;
+	width: 70px;
+	height: 50px;
 	margin: 10px;
 	padding: 10px;
-	border-radius: 360px;
+	border-radius: 10px;
 	font-size: 20px;
 	color: #006d74;
 	line-height: 100px;
