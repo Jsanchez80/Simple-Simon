@@ -8,7 +8,7 @@ body {
 
 #boxSimon{
 	float: left;
-	height: 500px;
+	height: 440px;
 	width:  500px;
 	color: #d3d3d3;
 	border: 1px solid black;
@@ -16,11 +16,8 @@ body {
 	margin-bottom: 0px;
 	padding: 0px;
 	font-family: 'Lato', 'Play';
-	background-color: #00264d;
-	background: -webkit-linear-gradient(#00264d, #293f50);
-	background:    -moz-linear-gradient(#00264d, #293f50);
-	background:         linear-gradient(#00264d, #293f50);
-}
+	background-image: url("/img/brushed.png");
+
 
 #button1 {
 	display: block;
